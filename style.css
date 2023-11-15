@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+div {
+    height: 90px;
+    width: 90%;
+    border: 1px solid black;
+}
+textarea {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    resize: none;
+    overflow: -moz-hidden-unscrollable;
+}
+::-webkit-scrollbar {
+    width: 8px; /* Adjust the width as needed */
+    height: 8px;
+    border: 1px solid green; /* Border color */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: red; /* Thumb color */
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent; /* Track color */
+}
+
+#output{
+    margin-top: 50px;
+    height: auto ;
+    width: auto ;
+    border: none ;
+}
+#html_input{
+    color: rgb(149, 158, 137);
+}
+#css_input{
+    color: rgb(149, 158, 137);
+}
